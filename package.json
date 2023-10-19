@@ -1,0 +1,42 @@
+{
+  "name": "httpd",
+  "version": "1.3.0",
+  "description": "Simple http server in Node.js",
+  "main": "main.js",
+  "dependencies": {
+    "request": "^2.58.0",
+    "daemonize2": "^0.4.2",
+    "google": "^1.2.0",
+    "ddg": "^0.0.3",
+    "node-wolfram": "^0.0.1",
+    "temp-write": "^1.1.1",
+    "MD5": "^1.2.2",
+    "wtf_wikipedia": "^0.1.6",
+    "leet": "^1.2.7",
+    "chalk": "^1.0.0",
+    "pixl-xml": "^1.0.2",
+    "tinyurl": "^1.0.8",
+    "isgd": "^1.1.1",
+    "vgd": "^1.1.2",
+    "dronebl": "^1.1.9"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-jshint": "1.10.0",
+    "gulp-markdown": "1.0.0"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kitty-catt/http-server-nodejs.git"
+  },
+  "keywords": [
+    "Node.js",
+    "HTTPD",
+    "Web Server"
+  ],
+  "author": "LifeMushroom",
+  "license": "GNU-3.0"
+}
