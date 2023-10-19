@@ -10,5 +10,12 @@ var app = require('http').createServer(function (request, response) {
             console.log(property + ': ' + request.headers[property])
         }
     }
+
+    const data = { message: 'Hello, world!' };
+    const jsonData = JSON.stringify(data);
+  
+    response.setHeader('Content-Type', 'application/json');
+    response.end(jsonData);
+
 });
 app.listen(8080);   
